@@ -180,7 +180,6 @@ Indian Ecommerce Analytics
 │
 └── README.md
 
-
 ## Conclusion
 
 This project demonstrates an end-to-end data analytics workflow using **PostgreSQL, SQL, and Power BI**.
