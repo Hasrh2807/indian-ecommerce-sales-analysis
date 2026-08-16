@@ -187,11 +187,13 @@ This project demonstrates an end-to-end data analytics workflow using **PostgreS
 
 The workflow covers data validation, SQL-based analysis, KPI development, business analysis, dashboard creation, and insight generation.
 
+
 ## Author
 
 **Harsh**
 
 GitHub: https://github.com/Hasrh2807
+
 
 ## Power BI Dashboard
 
