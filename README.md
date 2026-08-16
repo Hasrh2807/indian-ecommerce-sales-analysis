@@ -163,7 +163,6 @@ Based on the analysis, the following business recommendations can be considered:
 
 ## 12. Project Structure
 
-```text
 Indian Ecommerce Analytics
 │
 ├── ecommerce-sql
@@ -179,7 +178,7 @@ Indian Ecommerce Analytics
 │   └── dashboard.png
 │
 └── README.md
-'''
+
 
 ## Conclusion
 
