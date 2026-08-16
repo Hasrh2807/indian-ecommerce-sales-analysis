@@ -163,9 +163,6 @@ Based on the analysis, the following business recommendations can be considered:
 
 ## 12. Project Structure
 
-```text
-Indian Ecommerce Analytics
-│
 ├── ecommerce-sql
 │   ├── 01_data_quality.sql
 │   ├── 02_sales_analysis.sql
@@ -180,7 +177,7 @@ Indian Ecommerce Analytics
 │
 └── README.md
 
-Conclusion
+## Conclusion
 
 This project demonstrates an end-to-end data analytics workflow using PostgreSQL, SQL, and Power BI.
 
@@ -188,10 +185,12 @@ The workflow covers data validation, SQL-based analysis, KPI development, busine
 
 ## Author
 
-**Harsh**
+Harsh
 
 GitHub: https://github.com/Hasrh2807
 
-## Power BI Dashboard
+`## Power BI Dashboard
 
 ![Power BI Dashboard](dashboard.png)
+
+
