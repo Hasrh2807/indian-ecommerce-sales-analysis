@@ -163,32 +163,58 @@ Based on the analysis, the following business recommendations can be considered:
 
 ## 12. Project Structure
 
-ecommerce-sql
-01_data_quality.sql
-02_sales_analysis.sql
-03_monthly_analysis.sql
-04_customer_analysis.sql
-05_marketing_analysis.sql
-06_category_analysis.sql
-07_top_products.sql
-screenshots
-dashboard.png
-README.md
+### SQL Analysis
+
+- `01_data_quality.sql`
+- `02_sales_analysis.sql`
+- `03_monthly_analysis.sql`
+- `04_customer_analysis.sql`
+- `05_marketing_analysis.sql`
+- `06_category_analysis.sql`
+- `07_top_products.sql`
+
+### Screenshots
+
+- `dashboard.png`
+
+### Documentation
+
+- `README.md`
+
+## 13. How to Reproduce
+
+1. Load the e-commerce dataset into PostgreSQL.
+2. Run the SQL analysis files.
+3. Review the SQL analysis results.
+4. Open the Power BI dashboard.
+5. Connect Power BI to the prepared dataset.
+6. Refresh the data.
+7. Review the dashboard and insights.
+
+## 14. Screenshots
+
+### Power BI Dashboard
+
+![Power BI Dashboard](dashboard.png)
+
+## 15. Future Improvements
+
+- Add advanced customer segmentation.
+- Implement RFM analysis.
+- Add predictive sales forecasting.
+- Add geographic sales analysis.
+- Improve marketing attribution analysis.
+- Automate scheduled data refresh.
+- Add additional Power BI drill-through pages.
 
 ## Conclusion
 
-This project demonstrates an end-to-end data analytics workflow using PostgreSQL, SQL, and Power BI.
+This project demonstrates an end-to-end data analytics workflow using **PostgreSQL, SQL, and Power BI**.
 
 The workflow covers data validation, SQL-based analysis, KPI development, business analysis, dashboard creation, and insight generation.
 
 ## Author
 
-Harsh
+**Harsh**
 
 GitHub: https://github.com/Hasrh2807
-
-## Power BI Dashboard
-
-![Power BI Dashboard](dashboard.png)
-
-
