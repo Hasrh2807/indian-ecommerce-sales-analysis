@@ -1,114 +1,172 @@
 # Indian E-Commerce Sales Analysis
 
-## Project Overview
+## 1. Project Overview
 
-This project analyzes Indian e-commerce session and sales data to understand revenue performance, customer behavior, product performance, conversion, and marketing-channel effectiveness.
+This project is an end-to-end e-commerce data analytics project focused on analyzing sales performance, customer behavior, product performance, marketing effectiveness, and category-level trends.
 
-The project combines **PostgreSQL, SQL, and Power BI** to transform raw e-commerce session data into business insights and an interactive dashboard.
+The project uses SQL for data analysis and Power BI for interactive data visualization and business intelligence.
 
-## Tools & Technologies
+## 2. Business Problem
 
-* PostgreSQL
-* SQL
-* Power BI
-* DAX
-* GitHub
+The business needs to understand its e-commerce performance and identify the factors affecting revenue, customer activity, product performance, and marketing effectiveness.
 
-## Business Objectives
+The analysis focuses on answering questions such as:
 
-The project focuses on answering the following business questions:
+- What are the overall sales and revenue trends?
+- Which product categories generate the most revenue?
+- Which products are the top performers?
+- How do customers contribute to overall sales?
+- How does marketing performance affect conversions?
+- How does sales performance change over time?
 
-* What is the overall revenue and sales performance?
-* How many customers and sessions are recorded?
-* What is the purchase conversion rate?
-* Which months generate the highest revenue?
-* Which product categories perform best?
-* Which products generate the highest revenue?
-* Which marketing channels perform better?
-* Which customers generate the highest revenue?
+## 3. Objectives
 
-## Dataset
+- Analyze overall e-commerce sales performance.
+- Identify monthly revenue and sales trends.
+- Analyze customer purchasing behavior.
+- Evaluate marketing performance and conversion.
+- Identify high-performing product categories.
+- Identify top products by revenue.
+- Perform data quality analysis.
+- Build an interactive Power BI dashboard.
+- Generate actionable business recommendations.
 
-The main analytical table used in the project is:
+## 4. Dataset
 
-`ecommerce_sessions`
+The project uses an e-commerce sales dataset containing information related to customers, products, orders, sales, categories, marketing activity, and transaction performance.
 
-The dataset contains information related to:
+The dataset was prepared and analyzed to support SQL-based business analysis and Power BI visualization.
 
-* Customers
-* Sessions
-* Visit dates
-* Products
-* Product categories
-* Revenue
-* Quantity
-* Discounts
-* Marketing channels
-* Device types
-* Purchases
-* Cart activity
-* Session behavior
-* Customer ratings
+## 5. Tools & Technologies
 
-## SQL Analysis
+- **SQL** – Data cleaning, validation, transformation, and analysis
+- **Power BI** – Dashboard development and visualization
+- **DAX** – Measures and calculated metrics
+- **Microsoft Excel / CSV** – Data preparation and source data
+- **GitHub** – Project version control and documentation
 
-The PostgreSQL analysis includes:
+## 6. Data Model
 
-1. Data quality checks
-2. Overall sales performance
-3. Monthly performance
-4. Customer analysis
-5. Marketing-channel analysis
-6. Product-category analysis
-7. Top-product analysis
+The project uses a structured data model to connect sales, customer, product, category, and marketing-related information.
 
-## Power BI Dashboard
+The data model supports analysis across:
 
-The Power BI dashboard provides an interactive view of:
+- Customers
+- Products
+- Categories
+- Orders / Sales
+- Marketing
+- Date / Time
 
-* Total Revenue
-* Total Sessions
-* Total Customers
-* Total Purchases
-* Conversion Rate
-* Monthly Revenue
-* Monthly Purchases
-* Revenue by Product Category
-* Top 10 Products by Revenue
+The relationships between these entities allow the Power BI dashboard to provide consistent and interactive analysis.
 
-## Key Results
+## 7. Data Cleaning
 
-The analysis identified:
+Data quality checks and preparation were performed before analysis.
 
-* **Total Sessions:** 25,000
-* **Total Customers:** 8,442
-* **Total Units Sold:** 62,226
-* **Total Revenue:** 10,116,169.06
-* **Total Purchases:** 5,616
-* **Conversion Rate:** 22.46%
+The cleaning process included:
 
-### Monthly Performance
+- Checking for missing values
+- Identifying duplicate records
+- Validating data types
+- Checking sales and revenue values
+- Validating categorical fields
+- Checking date fields
+- Reviewing inconsistent or invalid records
+- Preparing the data for SQL analysis and Power BI
 
-* Highest monthly revenue: **August — 917,972.70**
-* Lowest monthly revenue: **November — 771,484.47**
-* Highest monthly purchases: **August — 502**
-* Highest conversion rate: **September — 23.42%**
-* Lowest conversion rate: **May — 21.07%**
+## 8. SQL Analysis
 
-### Product Category Performance
+SQL was used to perform multiple business analyses.
 
-The highest-revenue product category was **Category 2**, generating approximately **2.04 million** in revenue.
+The project includes:
 
-### Top Product
+### Data Quality Analysis
+`01_data_quality.sql`
 
-The highest-revenue product was **Product 130**, generating approximately **35,975.88** in revenue.
+Used to validate data quality and identify potential issues in the dataset.
 
-## Project Structure
+### Sales Analysis
+`02_sales_analysis.sql`
+
+Used to analyze overall sales and revenue performance.
+
+### Monthly Analysis
+`03_monthly_analysis.sql`
+
+Used to identify monthly sales and revenue trends.
+
+### Customer Analysis
+`04_customer_analysis.sql`
+
+Used to analyze customer-level purchasing behavior and contribution.
+
+### Marketing Analysis
+`05_marketing_analysis.sql`
+
+Used to evaluate marketing performance and conversion-related metrics.
+
+### Category Analysis
+`06_category_analysis.sql`
+
+Used to compare revenue and sales performance across product categories.
+
+### Top Products Analysis
+`07_top_products.sql`
+
+Used to identify the highest-performing products based on revenue.
+
+## 9. Power BI Dashboard
+
+An interactive Power BI dashboard was developed to present the results of the analysis in a clear and business-friendly format.
+
+The dashboard includes key metrics and visualizations such as:
+
+- Total Revenue
+- Total Sales
+- Conversion Rate
+- Revenue by Product Category
+- Top 10 Products by Revenue
+- Monthly Sales / Revenue Trends
+- Customer Analysis
+- Marketing Performance
+
+The dashboard enables users to explore the business performance through interactive visualizations.
+
+## 10. Key Insights
+
+The analysis provides insights into:
+
+- Overall revenue and sales performance
+- Monthly sales trends
+- High-performing product categories
+- Top revenue-generating products
+- Customer purchasing patterns
+- Marketing and conversion performance
+- Areas with opportunities for business improvement
+
+
+## 11. Business Recommendations
+
+Based on the analysis, the following business recommendations can be considered:
+
+- **Investigate strong-performing months:** Analyze the factors behind strong August revenue performance and identify strategies that can be replicated in other months.
+- **Improve lower-performing months:** Investigate the reasons behind lower November revenue and conversion performance and develop targeted improvement strategies.
+- **Focus on high-performing categories:** Prioritize high-revenue product categories and strengthen inventory, pricing, and promotional strategies around them.
+- **Promote top-performing products:** Use targeted campaigns and personalized promotions to increase visibility and sales of high-performing products.
+- **Improve conversion performance:** Identify opportunities to improve conversion rates during lower-performing periods through better offers, customer experience, and marketing campaigns.
+- **Retain high-value customers:** Analyze high-value customer behavior and develop personalized offers and retention strategies.
+- **Optimize marketing channels:** Compare marketing channels based on revenue, conversion, and overall performance to allocate resources more effectively.
+- **Use customer insights:** Leverage purchasing behavior to create targeted recommendations, offers, and campaigns.
+- **Monitor performance continuously:** Track revenue, sales, conversion, category, product, and customer KPIs through the Power BI dashboard.
+- **Maintain data quality:** Continue regular data validation and cleaning to ensure reliable business reporting and decision-making.
+
+## 12. Project Structure
 
 ```text
-indian-ecommerce-sales-analysis/
+Indian Ecommerce Analytics
 │
-├── ecommerce-sql/
+├── ecommerce-sql
 │   ├── 01_data_quality.sql
 │   ├── 02_sales_analysis.sql
 │   ├── 03_monthly_analysis.sql
@@ -117,22 +175,11 @@ indian-ecommerce-sales-analysis/
 │   ├── 06_category_analysis.sql
 │   └── 07_top_products.sql
 │
-├── screenshots/
+├── screenshots
 │   └── dashboard.png
 │
 └── README.md
-```
 
-## Business Recommendations
-
-Based on the analysis, businesses can:
-
-* Investigate the factors behind strong August revenue performance.
-* Analyze the reasons for lower November revenue and conversion.
-* Focus on high-performing product categories.
-* Identify opportunities to improve conversion during lower-performing months.
-* Analyze high-value customers for retention and personalized marketing.
-* Optimize marketing channels based on revenue and conversion performance.
 
 ## Conclusion
 
