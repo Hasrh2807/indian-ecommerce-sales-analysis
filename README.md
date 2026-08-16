@@ -148,4 +148,4 @@ GitHub: https://github.com/Hasrh2807
 
 ## Power BI Dashboard
 
-![Power BI Dashboard](screenshots/dashboard.png)
+![Power BI Dashboard](dashboard.png)
