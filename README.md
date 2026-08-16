@@ -162,7 +162,7 @@ Based on the analysis, the following business recommendations can be considered:
 - **Maintain data quality:** Continue regular data validation and cleaning to ensure reliable business reporting and decision-making.
 
 ## 12. Project Structure
-
+'''
 Indian Ecommerce Analytics
 │
 ├── ecommerce-sql
@@ -178,7 +178,7 @@ Indian Ecommerce Analytics
 │   └── dashboard.png
 │
 └── README.md
-
+'''
 
 ## Conclusion
 
