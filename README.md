@@ -163,6 +163,9 @@ Based on the analysis, the following business recommendations can be considered:
 
 ## 12. Project Structure
 
+```text
+Indian Ecommerce Analytics
+│
 ├── ecommerce-sql
 │   ├── 01_data_quality.sql
 │   ├── 02_sales_analysis.sql
@@ -189,7 +192,7 @@ Harsh
 
 GitHub: https://github.com/Hasrh2807
 
-`## Power BI Dashboard
+## Power BI Dashboard
 
 ![Power BI Dashboard](dashboard.png)
 
