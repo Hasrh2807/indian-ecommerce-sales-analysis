@@ -145,3 +145,7 @@ The workflow covers data validation, SQL-based analysis, KPI development, busine
 **Harsh**
 
 GitHub: https://github.com/Hasrh2807
+
+## Power BI Dashboard
+
+![Power BI Dashboard](screenshots/dashboard.png)
