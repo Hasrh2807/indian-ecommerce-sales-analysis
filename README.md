@@ -180,19 +180,17 @@ Indian Ecommerce Analytics
 │
 └── README.md
 
-## Conclusion
+Conclusion
 
-This project demonstrates an end-to-end data analytics workflow using **PostgreSQL, SQL, and Power BI**.
+This project demonstrates an end-to-end data analytics workflow using PostgreSQL, SQL, and Power BI.
 
 The workflow covers data validation, SQL-based analysis, KPI development, business analysis, dashboard creation, and insight generation.
-
 
 ## Author
 
 **Harsh**
 
 GitHub: https://github.com/Hasrh2807
-
 
 ## Power BI Dashboard
 
